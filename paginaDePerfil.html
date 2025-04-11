@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Página de Perfil</title>
+  <link rel="stylesheet" href="./CSS/paginaDePerfil-Style.css" />
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="nav">
+      <div class="logo">Perfil</div>
+      <div class="menu-derecha">
+        <nav class="menu">
+          <a href="#">Inicio</a>
+          <a href="#">Mi Perfil</a>
+          <a href="#">Encontrar Conexiones</a>
+        </nav>
+        <button class="cerrar-sesion">Cerrar Sesión</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="flex-container main">
+    <!-- Columna principal -->
+    <div class="col-2">
+      <div class="perfil">
+        <div class="perfil-header">
+          <img class="imagen" src="./Img/Foto.jpg" alt="Linn Olsen" />
+        </div>
+
+        <div class="perfil-body-header">
+          <h2 class="nombre">
+            Linn Olsen
+          </h2>
+          <p>
+            Bergen, Noruega
+          </p>
+          <p class="titulo">
+            Diseñadora de UX/UI | Desarrolladora Frontend | Amante de la naturaleza
+          </p>
+          <p>
+            Apasionada por crear experiencias digitales hermosas y funcionales. Cuando no está codificando, disfruta
+            explorando los fiordos noruegos y capturando la belleza de la naturaleza en fotografías.
+          </p>
+          <a href="#" class="boton">✎ Edit profile</a>
+        </div>
+      </div>
+
+      <div class="perfil education">
+        <div class="perfil-body">
+          <h3>Educacion</h3>
+          <p>
+            Coding Dojo - Bootcamp de Desarrollo Full Stack<br />
+            Dic 2019 - Mar 2020<br />
+            Triple cinturón negro en Python, MERN y C#
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna lateral -->
+    <div class="col-1">
+      <div class="perfil">
+        <div class="perfil-body">
+          <h3>Solicitudes de Conexión (2)</h3>
+
+          <ul class="card-list">
+            <li class="card-list-item">
+              <div class="card-list-item start">
+                <img class="avatar-s" src="./Img/img3.jpg" alt="Kai Schröder" />
+                Kai Schröder
+              </div>
+              <div>
+                <img class="icon" alt="" src="img/check.png" />
+                <img class="icon" alt="" src="img/close.png" />
+              </div>
+            </li>
+
+            <li class="card-list-item">
+              <div class="card-list-item start">
+                <img class="avatar-s" src="./Img/img1.jpg" alt="Amira El-Masry" />
+                Amira El-Masry
+              </div>
+              <div>
+                <img class="icon" alt="" src="img/check.png" />
+                <img class="icon" alt="" src="img/close.png" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="perfil">
+        <div class="perfil-body">
+          <h3>Tus Conexiones (500+)</h3>
+          <ul class="card-list">
+            <li class="card-list-item start">
+              <img class="avatar-s" alt="" src="./Img/img4.jpg" /> Adrien Desplatz
+            </li>
+            <li class="card-list-item start">
+              <img class="avatar-s" alt="" src="./Img/img2.jpg" /> Aarav Patel
+            </li>
+            <li class="card-list-item start">
+              <img class="avatar-s" alt="" src="./Img/img6.jpg" /> Lina Kovačević
+            </li>
+            <li class="card-list-item start">
+              <img class="avatar-s" alt="" src="./Img/img5.jpg" /> Mateo Hernández
+            </li>
+            <li class="card-list-item start">
+              <img class="avatar-s" alt="" src="./Img/img7.jpg" /> Yuna Kim
+            </li>
+            <li class="card-list-item start">
+              <img class="avatar-s" alt="" src="./Img/img8.jpg" /> Liam O'Brien
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>
